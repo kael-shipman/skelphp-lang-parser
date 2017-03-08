@@ -1,0 +1,27 @@
+{
+  "name" : "skel/lang-parser",
+  "description" : "A class for parsing simple custom scripting languages into commands and arguments",
+  "type" : "library",
+  "keywords" : [ "parser", "parse", "scripting" ],
+  "license" : "GPL3",
+  "authors" : [
+    {
+      "name" : "Kael Shipman",
+      "email" : "kael.shipman@gmail.com",
+      "homepage" : "https://colors.kaelshipman.me",
+      "role" : "Developer"
+    }
+  ],
+  "require" : {
+    "php" : ">=5.4.3",
+    "skel/header" : "~0.1"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "~6.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Skel\\" : "src/"
+    }
+  }
+}
